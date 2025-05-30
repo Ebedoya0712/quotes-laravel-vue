@@ -1,5 +1,7 @@
 <?php
 
+uses(\Tests\TestCase::class);
+
 use Illuminate\Support\Facades\Http;
 
 beforeEach(function () {

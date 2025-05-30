@@ -1,5 +1,7 @@
 <?php
 
+uses(\Tests\TestCase::class);
+
 use Quotes\Services\QuoteApiService;
 
 it('puede obtener todas las citas', function () {
