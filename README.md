@@ -84,10 +84,20 @@ Laravel package to consume and display quotes from [dummyjson.com/quotes](https:
 
 ## Testing
 
-- Run tests with PestPHP:
-  ```bash
-  ./vendor/bin/pest
-  ```
+To run all tests from the root of your Laravel project:
+```bash
+./vendor/bin/pest
+```
+
+To run only the package tests:
+```bash
+./vendor/bin/pest packages/quotes/tests
+```
+
+You can also use PHPUnit if you prefer:
+```bash
+./vendor/bin/phpunit
+```
 
 ---
 
